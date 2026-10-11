@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio | Développeur Web</title>
+  <meta name="description" content="Découvrez mes projets web et mes compétences en développement frontend.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#home" class="logo">MonPortfolio.</a>
+
+    <button class="menu-btn" id="menu-btn"
+      aria-label="Ouvrir le menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Accueil</a>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">BIENVENUE SUR MON PORTFOLIO</p>
+        <h1>Salut, moi c'est <span>Ton Nom</span></h1>
+        <h2>Développeur Frontend en devenir</h2>
+        <p>
+          J'apprends à créer des sites web modernes,
+          rapides et adaptés aux mobiles.
+        </p>
+        <a href="#projects" class="btn">Voir mes projets</a>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-icon">&lt;/&gt;</div>
+        <p>HTML · CSS · JavaScript</p>
+        <span>Créativité et code ✨</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">QUI SUIS-JE ?</p>
+      <h2 class="section-title">À propos de moi</h2>
+      <p class="about-text">
+        Je suis un développeur web débutant passionné par la création
+        de sites internet. J'apprends chaque jour et je construis
+        des projets pour améliorer mes compétences en frontend.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">CE QUE J'APPRENDS</p>
+      <h2 class="section-title">Mes compétences</h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>HTML</h3>
+          <p>La structure des pages web.</p>
+        </article>
+        <article class="skill-card">
+          <h3>CSS</h3>
+          <p>Le design et la mise en page.</p>
+        </article>
+        <article class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Les interactions et la logique.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">MES RÉALISATIONS</p>
+      <h2 class="section-title">Mes projets</h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one">&lt;/&gt;</div>
+          <div class="project-info">
+            <h3>Portfolio personnel</h3>
+            <p>Un site pour présenter mon profil et mes compétences.</p>
+            <span class="tag">HTML · CSS · JS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-two">☕</div>
+          <div class="project-info">
+            <h3>Site de café</h3>
+            <p>Une maquette de site pour un café moderne.</p>
+            <span class="tag">HTML · CSS</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-three">🛍️</div>
+          <div class="project-info">
+            <h3>Boutique en ligne</h3>
+            <p>Une maquette de boutique pour présenter des produits.</p>
+            <span class="tag">HTML · CSS · JS</span>
+          </div>
+        </article>
+      </div>
+      <p class="project-note">
+        Ces projets sont des exemples à réaliser : remplace-les
+        par tes vrais projets au fur et à mesure.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">PARLONS DE TON PROJET</p>
+      <h2 class="section-title">Contacte-moi</h2>
+      <p>Tu as une idée de site web ? Tu peux me contacter par email.</p>
+      <a class="btn" href="mailto:tonemail@example.com">
+        M'envoyer un email
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> MonPortfolio. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
+
+
